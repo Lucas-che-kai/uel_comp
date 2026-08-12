@@ -242,11 +242,11 @@ void searchList(lista *l, int valor){
     }
 
     if(atual == NULL){
-        printf("VALOR %d NAO ENCONTRADO");
+        printf("VALOR %d NAO ENCONTRADO", valor);
     }
 
     if(atual->valor==valor){
-        printf("VALOR %d ENCONTRADO");
+        printf("VALOR %d ENCONTRADO", valor);
     }
 }
 
